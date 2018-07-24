@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ActionBar Should render the component 1`] = `
+<Component
+  pb={
+    Array [
+      3,
+      4,
+    ]
+  }
+  pl={3}
+  pt={2}
+>
+  <WithTheme(Component)
+    color="tertiary.main"
+    m={0}
+    px={0}
+    py={2}
+    quartenary={true}
+    square={true}
+  >
+    <FaHome />
+  </WithTheme(Component)>
+  <WithTheme(Component)
+    color="tertiary.main"
+    ml={2}
+    px={3}
+    py={
+      Array [
+        0,
+        1,
+        2,
+      ]
+    }
+    quartenary={true}
+  >
+    <FaChevronLeft />
+    <Component
+      fontSize={
+        Array [
+          0,
+          1,
+        ]
+      }
+      ml={2}
+    >
+      Back
+    </Component>
+  </WithTheme(Component)>
+  <Component
+    color="tertiary.main"
+    fontSize={
+      Array [
+        2,
+        3,
+      ]
+    }
+    ml={4}
+  >
+    <Styled(FaLightbulbO) />
+    Lighting
+  </Component>
+</Component>
+`;

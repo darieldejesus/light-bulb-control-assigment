@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Should render the main page 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <styled.div>
+    <Navbar />
+    <Component />
+    <WithTheme(Component)>
+      <Connect(NotificationBar) />
+      <Component
+        flexWrap="wrap-reverse"
+      >
+        <Component
+          pr={
+            Array [
+              0,
+              0,
+              3,
+            ]
+          }
+          width={
+            Array [
+              1,
+              1,
+              0.5,
+              0.6666666666666666,
+            ]
+          }
+        >
+          <Connect(DevicesTable) />
+        </Component>
+        <Styled(Component)
+          bg="tertiary.dark"
+          mb={
+            Array [
+              3,
+              0,
+            ]
+          }
+          width={
+            Array [
+              1,
+              1,
+              0.5,
+              0.3333333333333333,
+            ]
+          }
+        >
+          <Connect(BrightnessControl) />
+        </Styled(Component)>
+      </Component>
+    </WithTheme(Component)>
+  </styled.div>
+</Provider>
+`;

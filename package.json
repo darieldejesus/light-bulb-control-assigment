@@ -1,0 +1,76 @@
+{
+  "name": "resinio",
+  "version": "0.1.0",
+  "description": "Resion.io evaluation",
+  "main": "index.js",
+  "author": "Dariel de Jesus (www.darieldejesus.com)",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "moment": "^2.22.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-icons": "^2.2.7",
+    "react-loading": "^2.0.3",
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "rendition": "^4.18.1",
+    "resolve-url": "^0.2.1",
+    "styled-components": "^3.3.3"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --env=jsdom",
+    "test:watch": "yarn test --watch",
+    "test:coverage": "yarn test --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint ./src",
+    "lintfix": "eslint . --fix"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.4",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsdoc": "^3.7.1",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "jest-fetch-mock": "^1.6.5",
+    "jest-styled-components": "^5.0.1",
+    "jsdom": "^11.11.0",
+    "pre-commit": "^1.2.2",
+    "raf": "^3.4.0",
+    "redux-mock-store": "^1.5.3"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "**/src/**/*.js",
+      "!src/index.js",
+      "!src/registerServiceWorker.js",
+      "!src/theme.js"
+    ],
+    "setupFiles": [
+      "raf/polyfill",
+      "./tests/jest.config.js"
+    ],
+    "verbose": false
+  }
+}

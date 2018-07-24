@@ -1,0 +1,8 @@
+{
+  "globals": {
+    "mount": true,
+    "render": true,
+    "shallow": true,
+    "toJson": true
+  }
+}

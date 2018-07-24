@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrefixRowMessage Should render a table row with a given message 1`] = `
+<tr>
+  <td
+    colSpan={1}
+  >
+    <Component
+      align="center"
+    >
+      Hello World!
+    </Component>
+  </td>
+</tr>
+`;

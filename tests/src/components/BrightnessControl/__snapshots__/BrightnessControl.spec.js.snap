@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BrightnessControl Should render the brightness control 1`] = `
+<SliderSelectControl
+  circleEndAngle={315}
+  circleStartAngle={45}
+  enabled={true}
+  onChange={[Function]}
+  padding={50}
+  radius={120}
+  strokeWidth={13}
+  value={10}
+/>
+`;

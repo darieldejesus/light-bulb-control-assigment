@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stats Should render the component 1`] = `
+<styled.div>
+  <Styled(SunIcon)
+    fillColor="#FEC33A"
+  />
+  <styled.span>
+    45
+    <span>
+      %
+    </span>
+  </styled.span>
+  <styled.p>
+    Brightness
+  </styled.p>
+</styled.div>
+`;

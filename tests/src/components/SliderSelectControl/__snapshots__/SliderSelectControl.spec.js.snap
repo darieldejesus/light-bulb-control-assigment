@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SliderSelectControl Should render the component 1`] = `
+<styled.div>
+  <styled.svg
+    height={240}
+    innerRef={[Function]}
+    width={240}
+  >
+    <defs>
+      <linearGradient
+        id="gradient"
+        x1="0%"
+        x2="100%"
+        y1="0%"
+        y2="0%"
+      >
+        <stop
+          offset="0%"
+          stopColor="#6E5618"
+        />
+        <stop
+          offset="100%"
+          stopColor="#FEC33A"
+        />
+      </linearGradient>
+    </defs>
+    <styled.path
+      d="M 190.71067811865476 190.71067811865476 A 100 100 0 1 0 49.28932188134523 190.71067811865476"
+      fill="none"
+      width={10}
+    />
+    <styled.path
+      d="M 49.28932188134523 190.71067811865476 A 100 100 0 1 1 190.71067811865476 190.71067811865476"
+      fill="none"
+      width={10}
+    />
+    <styled.circle
+      cx={190.71067811865476}
+      cy={190.71067811865476}
+      draggable={false}
+      onMouseDown={[Function]}
+      onTouchStart={[Function]}
+      r={10}
+    />
+  </styled.svg>
+  <Stats
+    value={100}
+  />
+</styled.div>
+`;

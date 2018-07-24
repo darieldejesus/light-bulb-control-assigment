@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DevicesTable Should render a loading message if "isLoading" is active 1`] = `
+<Styled(Table)
+  columns={
+    Array [
+      Object {
+        "field": "name",
+        "label": "Room",
+        "render": [Function],
+        "sortable": true,
+      },
+      Object {
+        "field": "active",
+        "label": "State",
+        "render": [Function],
+        "sortable": false,
+      },
+      Object {
+        "field": "brightness",
+        "label": "Brightness",
+        "render": [Function],
+        "sortable": false,
+      },
+    ]
+  }
+  currentDeviceName=""
+  data={Array []}
+  onRowClick={[Function]}
+  rowAnchorAttributes={
+    Object {
+      "data-device-name": "",
+    }
+  }
+  rowKey="name"
+  tbodyPrefix={
+    <PrefixRowMessage
+      colSpan={3}
+      message="Loading devices..."
+    />
+  }
+/>
+`;
+
+exports[`DevicesTable Should render a table even if devices but with a message 1`] = `
+<Styled(Table)
+  columns={
+    Array [
+      Object {
+        "field": "name",
+        "label": "Room",
+        "render": [Function],
+        "sortable": true,
+      },
+      Object {
+        "field": "active",
+        "label": "State",
+        "render": [Function],
+        "sortable": false,
+      },
+      Object {
+        "field": "brightness",
+        "label": "Brightness",
+        "render": [Function],
+        "sortable": false,
+      },
+    ]
+  }
+  currentDeviceName=""
+  data={Array []}
+  onRowClick={[Function]}
+  rowAnchorAttributes={
+    Object {
+      "data-device-name": "",
+    }
+  }
+  rowKey="name"
+  tbodyPrefix={
+    <PrefixRowMessage
+      colSpan={3}
+      message="No devices were found."
+    />
+  }
+/>
+`;
+
+exports[`DevicesTable Should render a table with the devices 1`] = `
+<Styled(Table)
+  columns={
+    Array [
+      Object {
+        "field": "name",
+        "label": "Room",
+        "render": [Function],
+        "sortable": true,
+      },
+      Object {
+        "field": "active",
+        "label": "State",
+        "render": [Function],
+        "sortable": false,
+      },
+      Object {
+        "field": "brightness",
+        "label": "Brightness",
+        "render": [Function],
+        "sortable": false,
+      },
+    ]
+  }
+  currentDeviceName=""
+  data={
+    Array [
+      Object {
+        "active": true,
+        "brightness": 50,
+        "id": 1,
+        "name": "Balcony",
+      },
+      Object {
+        "active": false,
+        "brightness": 70,
+        "id": 2,
+        "name": "Bedroom 01",
+      },
+      Object {
+        "active": false,
+        "brightness": 70,
+        "id": 3,
+        "name": "Bedroom 02",
+      },
+      Object {
+        "active": true,
+        "brightness": 100,
+        "id": 4,
+        "name": "Entrance",
+      },
+      Object {
+        "active": true,
+        "brightness": 100,
+        "id": 5,
+        "name": "Kitchen",
+      },
+      Object {
+        "active": true,
+        "brightness": 40,
+        "id": 6,
+        "name": "Living Room",
+      },
+      Object {
+        "active": false,
+        "brightness": 60,
+        "id": 7,
+        "name": "Master Bedroom",
+      },
+      Object {
+        "active": false,
+        "brightness": 100,
+        "id": 8,
+        "name": "Storage",
+      },
+    ]
+  }
+  onRowClick={[Function]}
+  rowAnchorAttributes={
+    Object {
+      "data-device-name": "",
+    }
+  }
+  rowKey="name"
+/>
+`;
+
+exports[`DevicesTable Should render an error message if "error" is defined 1`] = `
+<Styled(Table)
+  columns={
+    Array [
+      Object {
+        "field": "name",
+        "label": "Room",
+        "render": [Function],
+        "sortable": true,
+      },
+      Object {
+        "field": "active",
+        "label": "State",
+        "render": [Function],
+        "sortable": false,
+      },
+      Object {
+        "field": "brightness",
+        "label": "Brightness",
+        "render": [Function],
+        "sortable": false,
+      },
+    ]
+  }
+  currentDeviceName=""
+  data={Array []}
+  onRowClick={[Function]}
+  rowAnchorAttributes={
+    Object {
+      "data-device-name": "",
+    }
+  }
+  rowKey="name"
+  tbodyPrefix={
+    <PrefixRowMessage
+      colSpan={3}
+      message="No devices were found."
+    />
+  }
+/>
+`;

@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NotificationBar Should render the NotificationBar with error message 1`] = `<Connect(NotificationBar) />`;
+
+exports[`NotificationBar Should render the NotificationBar without error message 1`] = `<Connect(NotificationBar) />`;
