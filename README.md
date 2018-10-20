@@ -2,6 +2,10 @@
 
 This is a simple web app to interacts with light bulbs. It allows you to turn on and off the light bulbs and change their brightness as well.
 
+## Dependency
+
+This project uses a in-memory API to simulate the list of devices. Here you can see it https://github.com/resin-io/light-api
+
 ## Features
 
 These are the features implemented in the app to help users to control their light bulbs.
